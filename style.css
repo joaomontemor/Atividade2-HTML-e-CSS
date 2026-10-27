@@ -1,0 +1,96 @@
+/* Seletor de tag: estilo geral da página */
+body {
+    background-color: #fff3e0;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Agrupamento de seletores: mesmo estilo para h1, h2 e h3 */
+h1, h2, h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+}
+
+/* Títulos e subtítulos coloridos diferente de preto */
+h2, h3 {
+    color: #d84315;
+}
+
+/* Seletor de tag: h1 centralizado */
+h1 {
+    text-align: center;
+    font-size: 56px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* Seletor de id: cabeçalho */
+#topo {
+    background-color: #bf360c;
+    color: #ffffff;
+    padding: 25px;
+}
+
+/* Seletor de id: destaque do número de títulos */
+#titulos {
+    color: #d84315;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Seletor de classe: caixa de cada seção */
+.caixa {
+    background-color: #ffffff;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 15px 25px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #ef6c00;
+    border-radius: 12px;
+}
+
+/* Seletor de classe: seção em destaque */
+.destaque {
+    background-color: #ffe0b2;
+    border-style: dashed;
+}
+
+/* Menu de navegação */
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Seletor descendente: links dentro do nav */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Estilização de listas */
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+/* Efeito hover nos links (extra) */
+a:hover {
+    background-color: #ffcc80;
+    color: #212121;
+}
+
+/* Rodapé */
+footer {
+    background-color: #212121;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
